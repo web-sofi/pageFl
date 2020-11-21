@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+.mar-top{
+    margin-top: 70px;
+}
+
+.w-50{
+    width: 50px !important;
+    padding: 5px 0;
+}
+.w-60{
+    width: 90px !important;
+    padding: 6px 0px;
+}
+.w-80{
+    width: 80px !important;
+    padding: 2px 0;
+}
+.w-100{
+    width: 100px !important;
+    padding: 23px 0;
+}
+.w-150{
+    width: 150px !important;
+    padding: 23px 0;
+}
+.w-car-150{
+    width: 150px!important;
+    padding: 13px 0;
+}
+.w-200{
+    width: 80% !important;
+}
+.w-250{
+    width: 80px !important;
+}
+.w-300{
+    width: 80px !important;
+}
+/*Header Section */
+ .bg-light{
+    background: #fff !important;
+    border-bottom: 2px solid #cac6c6;
+ }
+ .navbar-brand {}
+ .navbar-brand img{}
+ .navbar-nav{
+        align-items: center;
+ }
+ .navbar-nav .nav-item{}
+ .navbar-nav .nav-item .nav-link{
+    padding: 0 15px;
+    position: relative;
+    font-weight: 700;
+    font-size: 15px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgb(96 108 251);
+}
+  .navbar-nav .nav-item .nav-link i{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #5f67ff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 40px;
+    margin-right: 30px;
+    color: #5f67ff;
+}
+ .navbar-nav .nav-item .nav-link.active{
+    color: rgb(96 108 251);
+} 
+ .header-btn{
+    text-transform: uppercase;
+    font-size: 15px;
+    background: #5f67ff;
+    color: #fff;
+    padding: 12px 17px;
+    font-weight: 600;
+    border: 1px solid #5f67ff;
+    letter-spacing: 2px;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+    outline: none;
+}
+ .header-btn:hover{
+    background: transparent;
+    color: #5f67ff;
+    transition: 0.5s ease-in-out;
+    outline: none;
+}
+
+.heading{}
+.heading h1{
+    font-size: 45px;
+    display: inline-flex;
+    background: #5f67ff;
+    padding: 8px 100px 8px calc(50% - 40.7%);
+    border-radius: 0 5px 5px 0;
+    margin: 80px 0 0;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sub-heading{}
+.sub-inner{}
+.sub-inner h1{
+    font-size: 60px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    color: #5f67ff;
+}
+.sub-inner h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    text-align: left;
+}
+
+
+/*happy Section Css*/
+.happy-section{
+    margin: 100px 0;
+}
+.happy-inner{
+    width: 100%;
+}
+.happy-inner .card{
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 18px 24px 0 rgba(95,147,180,0.2);
+    width: 100%;
+    border: none;
+    padding: 30px;
+}
+.happy-inner .card img{
+    display: inline-block;
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+.happy-inner .card .card-body{}
+.happy-inner .card .card-body .card-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    font-family: Poppins;
+    padding-top: 20px;
+    margin: 0;
+}
+.happy-inner .card .card-body .card-text{
+    color: #666;
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Roboto';
+    padding: 10px 0 20px;
+}
+
+
+/*Panda section CSS*/
+.panda{padding: 30px 0 100px;}
+.panda-inner{
+    border-radius: 3px;
+    box-shadow: 0 18px 24px 0 rgba(95,147,180,0.2);
+    width: 100%;
+    border: none;
+    padding: 35px 90px;
+}
+.panda-inner img{
+    width: 100%;
+}
+
+
+.panda-text{
+    border-radius: 3px;
+    box-shadow: 0 18px 24px 0 rgba(95,147,180,0.2);
+    width: 100%;
+    border: none;
+    padding: 42px;
+    margin-top: 35px;
+}
+.panda-text h1{
+    font-size: 30px;
+    font-family: Poppins;
+    color: #5f67ff;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.panda-text h2{
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: #3c3c3c;
+    font-family: Roboto;
+    margin-top: 0px;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+.panda-text p{
+    font-family: Roboto;
+    color: #666;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0px;
+}
+
+/*partner Section CSs*/
+
+.partner{}
+.partner h1{
+        font-size: 60px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #5f67ff;
+    margin-top: 0px;
+    text-align: right;
+    line-height: 1;
+    margin-bottom: 35px;
+}
+.part-inner{
+
+}
+.part-inner .img-box{
+    border-radius: 3px;
+    box-shadow: 0 18px 24px 0 rgba(95,147,180,0.2);
+    border: none;
+    padding: 0 6px;
+    border-style: solid;
+    border-width: 6px 0px 0px;
+    border-color: #5f67ff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+.part-inner .img-box img{
+    width: 100%;
+}
+
+.part-inner .text-box{
+    text-align: center;
+}
+.part-inner .text-box h2{
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #333;
+    font-family: Poppins;
+    margin-top: 30px;
+}
+.part-inner .text-box p{
+    font-family: Roboto;
+    color: #666;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+
+
+.step{
+    margin: 100px 0;
+}
+.step h2{
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 700;
+    color: #333;
+}
+
+.step-inner{}
+.step-inner span{
+    font-size: 101px;
+    font-family: Poppins;
+    line-height: 82px;
+    font-weight: 600;
+    color: #5f67ff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.step-inner h1{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: #333;
+    font-family: Poppins;
+}
+.step-inner p{
+    font-family: Roboto;
+    color: #666;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.step-btn{
+    background-color: #5f67ff;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 50px;
+    padding: 0px 28px;
+    border-radius: 5px;
+    margin-top: 35px;
+    text-align: center;
+    outline: none;
+    border: 1px solid #5f67ff;
+}
+
+
+/*Footer SectionCSs*/
+
+footer{
+    background: #333;
+    color: #fff;
+    padding: 80px 0 30px;
+}
+.footer-inner{}
+.footer-inner h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.footer-inner .list{}
+.footer-inner .list ul{
+    padding: 0;
+}
+.footer-inner .list ul li{
+    list-style: none;
+}
+.footer-inner .list ul li a{
+    line-height: 28px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+.footer-inner .list ul li a:hover{
+    color: #b9b9b9;
+    transition: 0.4s ease-in-out;
+}
+.last-footer{
+    background: #333;
+    
+}
+.last-footer .line{
+    height: 2px;
+    width: 100%;
+    background: #6b6b6b;
+}
+.last-footer .text{
+    text-align: center;
+    
+}
+.last-footer .text p{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 30px 0;
+    margin: 0;
+    color: #d8d8d8;
+}
